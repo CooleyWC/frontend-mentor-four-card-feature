@@ -1,0 +1,23 @@
+@use '../util' as u;
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 94%;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+
+    @include u.breakpoint(medium){
+        max-width: 60%;
+    }
+
+    @include u.breakpoint(large){
+        max-width: 40%;
+    }
+}
+
+
+
