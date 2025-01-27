@@ -83,7 +83,6 @@ ol[role=list] {
     font-size: var(--fs-3);
   }
   .hero p {
-    font-size: var(--fs-0);
     line-height: 2rem;
   }
 }
